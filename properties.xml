@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <!--parameters for SPM-->
+    <entry key="support">3</entry>
+    <entry key="confidence">0.5</entry>
+    <entry key="minGap">1</entry>
+    <entry key="maxGap">100000</entry>
+
+    <!--parameters for SparkContext-->
+    <entry key="mode">local</entry>
+    <entry key="minPartition">10</entry>
+    <entry key="inputPath">/Users/jiaqige/seqData.txt</entry>
+    <entry key="outputPath">/tmp/output</entry>
+    <!--<entry key="jarPath">file:///user/lib/ngmr/seqMiner*.jar</entry>-->
+</properties>
